@@ -116,7 +116,7 @@ describe('browser/index.html', function desc() {
     await this.app.restart();
     await this.app.client.pause(2000);
     const windowTitle = await this.app.browserWindow.getTitle();
-    windowTitle.should.equal('Mattermost Desktop testing html');
+    windowTitle.should.equal('Gchat Desktop testing html');
   });
 
   // Skip because it's very unstable in CI

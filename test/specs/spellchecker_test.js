@@ -68,6 +68,11 @@ describe('main/Spellchecker.js', function() {
       spellchecker.spellCheck('mattermost').should.equal(true);
     });
 
+    it('should allow "Gchat"', function() {
+      spellchecker.spellCheck('Gchat').should.equal(true);
+      spellchecker.spellCheck('Gchat').should.equal(true);
+    });
+
     it('should give at most the requested number of suggestions', function() {
       // helllo known to give at least 4 suggestions
       spellchecker.getSuggestions('helllo', 4).length.should.be.equal(4);

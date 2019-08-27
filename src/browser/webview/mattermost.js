@@ -44,7 +44,7 @@ function watchReactAppUntilInitialized(callback) {
 
 window.addEventListener('load', () => {
   if (document.getElementById('root') === null) {
-    console.log('The guest is not assumed as mattermost-webapp');
+    console.log('The guest is not assumed as gchat-webapp');
     ipcRenderer.sendToHost('onGuestInitialized');
     return;
   }

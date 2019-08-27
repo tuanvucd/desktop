@@ -8,7 +8,7 @@ async function upgradeAutoLaunch() {
     return;
   }
   const appLauncher = new AutoLaunch({
-    name: 'Mattermost',
+    name: 'Gchat',
     isHidden: true,
   });
   const enabled = await appLauncher.isEnabled();

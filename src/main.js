@@ -291,7 +291,7 @@ function handleAppCertificateError(event, webContents, url, error, certificate, 
     }
     dialog.showMessageBox(mainWindow, {
       title: 'Certificate Error',
-      message: 'There is a configuration issue with this Mattermost server, or someone is trying to intercept your connection. You also may need to sign into the Wi-Fi you are connected to using your web browser.',
+      message: 'There is a configuration issue with this Gchat server, or someone is trying to intercept your connection. You also may need to sign into the Wi-Fi you are connected to using your web browser.',
       type: 'error',
       buttons: [
         'More Details',
@@ -339,6 +339,7 @@ function handleAppWillFinishLaunching() {
     event.preventDefault();
     setDeeplinkingUrl(url);
     if (app.isReady()) {
+      // noinspection JSAnnotator
       function openDeepLink() {
         try {
           mainWindow.webContents.send('protocol-deeplink', deeplinkingUrl);
