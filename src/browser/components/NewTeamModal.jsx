@@ -181,7 +181,7 @@ export default class NewTeamModal extends React.Component {
                 }}
               />
               <FormControl.Feedback/>
-              <HelpBlock className='NewTeamModal-noBottomSpace'>{'The URL of your Mattermost server. Must start with http:// or https://.'}</HelpBlock>
+              <HelpBlock className='NewTeamModal-noBottomSpace'>{'The URL of your Gchat server. Must start with http:// or https://.'}</HelpBlock>
             </FormGroup>
           </form>
         </Modal.Body>
