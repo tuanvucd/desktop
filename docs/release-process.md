@@ -1,6 +1,6 @@
 # Release Process
 
-This document outlines the release process for the Mattermost Desktop App. It is drawn from the development process used by the [Mattermost core team](https://docs.mattermost.com/process/release-process.html).
+This document outlines the release process for the GChat Desktop App. It is drawn from the development process used by the [GChat core team](https://docs.mattermost.com/process/release-process.html).
 
 ## Release Timeline
 
@@ -96,10 +96,10 @@ The final release is cut. If an urgent and important issue needs to be addressed
       - Windows: On "Developer Command Prompt" (bundled in Visual Studio),
       `signtool verify /pa /all EXE_TO_VERIFY`
       - Mac: On console,
-      `codesign --verify --deep --strict --verbose=2 Mattermost.app`
+      `codesign --verify --deep --strict --verbose=2 GChat.app`
 3. PM:
-    - Update the links in [Mattermost download page](https://www.mattermost.org/download/) and [installation guides](https://docs.mattermost.com/install/desktop.html)
-    - Draft [Mattermost Security Updates](http://about.mattermost.com/security-updates/) if applicable, but do not post until seven days after official release
+    - Update the links in [GChat download page](https://www.mattermost.org/download/) and [installation guides](https://docs.mattermost.com/install/desktop.html)
+    - Draft [GChat Security Updates](http://about.mattermost.com/security-updates/) if applicable, but do not post until seven days after official release
         - Check Security Issues spreadsheet and confirm disclosure text
     - Contact owners of [community installers](http://www.mattermost.org/installation/) to update install version number
     - Close GitHub meta ticket for the release
@@ -123,10 +123,10 @@ If a bug fix release is required, run through the following steps:
     - Delete RCs after final version is shipped
     - Merge changes made to release branch into master
 4. PM:  
-    - Update [Mattermost download page](https://mattermost.org/download)
+    - Update [GChat download page](https://mattermost.org/download)
     - Update the download links in [installation guides](https://docs.mattermost.com/install/desktop.html)
     - Update the changelog with notes on patch releases (see [example entry](https://docs.mattermost.com/help/apps/desktop-changelog.html#release-v3-4-1))  
-    - Draft [Mattermost Security Updates](http://about.mattermost.com/security-updates/) if applicable, but do not post until seven days after official release
+    - Draft [GChat Security Updates](http://about.mattermost.com/security-updates/) if applicable, but do not post until seven days after official release
         - Check Security Issues spreadsheet and confirm disclosure text
     - Contact owners of [community installers](http://www.mattermost.org/installation/) to update install version number
 5. Marketing:
@@ -149,7 +149,7 @@ If a bug fix release is required, run through the following steps:
 1. PM:
     - Post this checklist in Desktop App channel
     - Verify all items in the last posted release checklist are complete
-    - Post and review [Mattermost Security Updates](https://about.mattermost.com/security-updates/) for the Desktop App
+    - Post and review [GChat Security Updates](https://about.mattermost.com/security-updates/) for the Desktop App
     - Update Security Issues spreadsheet with issue number from posted update (e.g. v3.2.0.1)
     - Confirm the Security Researchers list on the [Responsible Disclosure Policy](https://www.mattermost.org/responsible-disclosure-policy/) is up to date
     - Review community installers for the Desktop App and update version numbers if there are any discrepancies https://www.mattermost.org/installation/

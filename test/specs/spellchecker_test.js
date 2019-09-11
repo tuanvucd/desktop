@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2016 Yuya Ochiai
-// Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2016-present GChat, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 import path from 'path';
 
@@ -63,8 +63,8 @@ describe('main/Spellchecker.js', function() {
       spellchecker.spellCheck('3.14').should.equal(true);
     });
 
-    it('should allow "Mattermost"', function() {
-      spellchecker.spellCheck('Mattermost').should.equal(true);
+    it('should allow "GChat"', function() {
+      spellchecker.spellCheck('GChat').should.equal(true);
       spellchecker.spellCheck('mattermost').should.equal(true);
     });
 

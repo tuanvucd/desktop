@@ -1,6 +1,6 @@
 Before submitting, please confirm you've
  - [ ] read and understood our [Contributing Guidelines](https://github.com/mattermost/desktop/blob/master/CONTRIBUTING.md)
- - [ ] completed [Mattermost Contributor Agreement](http://www.mattermost.org/mattermost-contributor-agreement/)
+ - [ ] completed [GChat Contributor Agreement](http://www.mattermost.org/mattermost-contributor-agreement/)
  - [ ] executed `npm run lint:js` for proper code formatting
 
 Please provide the following information:

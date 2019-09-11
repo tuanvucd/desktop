@@ -1,4 +1,4 @@
-# Mattermost Desktop for Linux
+# GChat Desktop for Linux
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Otherwise, first locate the extracted directory in your desired directory (e.g. 
 
 ### Desktop launcher
 
-Execute the script file to create a `Mattermost.desktop` file.
+Execute the script file to create a `GChat.desktop` file.
 
 ```
 /opt/mattermost-desktop-<VERSION>/create_desktop_file.sh
@@ -25,7 +25,7 @@ Execute the script file to create a `Mattermost.desktop` file.
 Then move it to the appropriate directory of your desktop environment. For example, on Ubuntu Unity it's `~/.local/share/applications/` for the current user.
 
 ```
-mv Mattermost.desktop ~/.local/share/applications/
+mv GChat.desktop ~/.local/share/applications/
 ```
 
 ### Terminal command
@@ -56,7 +56,7 @@ After launching, you need to configure the application to interact with your tea
 4. Click **Add**.
 5. Click **Save**.
 
-More guides are available at [Mattermost Documentation](https://about.mattermost.com/default-desktop-app-documentation/).
+More guides are available at [GChat Documentation](https://about.mattermost.com/default-desktop-app-documentation/).
 
 
 ## Contributing

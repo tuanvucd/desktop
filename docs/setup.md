@@ -1,11 +1,11 @@
-# Mattermost Desktop Setup Guides
+# GChat Desktop Setup Guides
 
 ## Installation
 
 ### Windows
-To set up the Mattermost desktop application for Windows 7, 8 and 10:
+To set up the GChat desktop application for Windows 7, 8 and 10:
 
-1. Download [the latest release](https://github.com/mattermost/desktop/releases) of Mattermost Desktop
+1. Download [the latest release](https://github.com/mattermost/desktop/releases) of GChat Desktop
 
    Find the file ending in `-win64.zip` if you're running a x64 version of Windows and `-win32.zip` if you're running an older 32-bit version.
 
@@ -16,9 +16,9 @@ To set up the Mattermost desktop application for Windows 7, 8 and 10:
    - Click the "Extract" button.
    - Look for the new application directory at `C:\Users\(currentuser)\AppData\Local\mattermost-desktop...`.
    - Remove the version number by renaming the `mattermost-desktop...` application directory to `mattermost-desktop`.
-   - If a `mattermost-desktop` directory already exists then you are upgrading Mattermost, and need to quit Mattermost if it is running and then delete the `mattermost-desktop` directory. After that you can rename the `mattermost-desktop...` directory to `mattermost-desktop`. Don't worry, no settings will be lost, they are stored elsewhere.
+   - If a `mattermost-desktop` directory already exists then you are upgrading GChat, and need to quit GChat if it is running and then delete the `mattermost-desktop` directory. After that you can rename the `mattermost-desktop...` directory to `mattermost-desktop`. Don't worry, no settings will be lost, they are stored elsewhere.
 
-3. Go to the `\mattermost-desktop` application directory and find the file named `Mattermost`.
+3. Go to the `\mattermost-desktop` application directory and find the file named `GChat`.
 
    - Right-click the file and select "Pin to Taskbar" to make the application available from your Windows task bar.
    - Right-click the file and select "Pin to Start Menu" to make the application available from your Windows Start menu.
@@ -28,7 +28,7 @@ To set up the Mattermost desktop application for Windows 7, 8 and 10:
 ### OS X
 For OS X 10.11 El Capitan. An older version of OS X has similar way.
 
-1. Download [the latest release](https://github.com/mattermost/desktop/releases) of Mattermost Desktop
+1. Download [the latest release](https://github.com/mattermost/desktop/releases) of GChat Desktop
 
    Find the file ending in `-osx.tar.gz`.
 
@@ -36,11 +36,11 @@ For OS X 10.11 El Capitan. An older version of OS X has similar way.
 
    A new directory should be created on your Mac.
 
-3. Go to `/mattermost-desktop...` directory and right-click on `Mattermost` package and select "Open"
+3. Go to `/mattermost-desktop...` directory and right-click on `GChat` package and select "Open"
 
    If you see a dialog to confirm the application, select "Open".
 
-   You should see a new application called **Mattermost Desktop** open.
+   You should see a new application called **GChat Desktop** open.
 
 
 ### Linux
@@ -48,7 +48,7 @@ For OS X 10.11 El Capitan. An older version of OS X has similar way.
 #### Ubuntu
 For Ubuntu 16.04.
 
-1. Download [the latest release](https://github.com/mattermost/desktop/releases) of Mattermost Desktop
+1. Download [the latest release](https://github.com/mattermost/desktop/releases) of GChat Desktop
 
    Find the file ending in `-linux-*.deb`.
 
@@ -56,18 +56,18 @@ For Ubuntu 16.04.
 
    `sudo dpkg -i mattermost-desktop-<VERSION>-<ARCH>.deb`
 
-3. Open Dash (located at top left corner) and input `mattermost`, then click `Mattermost` icon
+3. Open Dash (located at top left corner) and input `mattermost`, then click `GChat` icon
 
-   You should see a new application called **Mattermost Desktop** open.
+   You should see a new application called **GChat Desktop** open.
 
 #### Other distributions
-1. Download [the latest release](https://github.com/mattermost/desktop/releases) of Mattermost Desktop
+1. Download [the latest release](https://github.com/mattermost/desktop/releases) of GChat Desktop
 
    Find the file ending in `-linux-*.tar.gz`
 
-2. Extract the archive, then execute `Mattermost` which is located at inside of the extracted directory
+2. Extract the archive, then execute `GChat` which is located at inside of the extracted directory
 
-3. If you need the Desktop Entry, please execute `create_desktop_file.sh`. It creates `Mattermost.desktop`.
+3. If you need the Desktop Entry, please execute `create_desktop_file.sh`. It creates `GChat.desktop`.
 
     Please refer https://wiki.archlinux.org/index.php/Desktop_entries
 
@@ -78,17 +78,17 @@ You have to configure the application to interact with your teams.
    You can also see **Settings Page** by following methods.
 
    - Windows: Press `Alt` key to bring up the menu at the top of the window, then click `File -> Settings`.
-   - OS X: Click `Mattermost` from the menu at the top of the screen, then click `Preferences...`.
+   - OS X: Click `GChat` from the menu at the top of the screen, then click `Preferences...`.
    - Linux: Click `File -> Settings` on the menu.
    - All : right-click on tray icon and click `Settings` or `Preferences...`.
 
 2. Press `+` button next to the "Teams" label.
 
-3. For each Mattermost team you'd like to use, enter its **Name** and **URL** then click **Add**
+3. For each GChat team you'd like to use, enter its **Name** and **URL** then click **Add**
 
 4. Click **Save** to save your setting
 
-You're now ready to use **Mattermost Desktop** to interact with multiple teams from one desktop application.
+You're now ready to use **GChat Desktop** to interact with multiple teams from one desktop application.
 
 
 ## Quit
@@ -98,14 +98,14 @@ You're now ready to use **Mattermost Desktop** to interact with multiple teams f
 
 ## Help
 
-The Mattermost desktop application offers:
+The GChat desktop application offers:
 
-- Connectivity to one or more Mattermost team sites and multiple Mattermost servers
+- Connectivity to one or more GChat team sites and multiple GChat servers
 - Shortcuts from Start Menu and Windows Task Bar
 - Icon notifications from Windows Task Bar
 - Desktop notifications
 
-See the Mattermost [help documentation](http://docs.mattermost.com/help/getting-started/signing-in.html) for how to use the Mattermost team site.
+See the GChat [help documentation](http://docs.mattermost.com/help/getting-started/signing-in.html) for how to use the GChat team site.
 
 
 ## Settings Page
@@ -142,7 +142,7 @@ If **Hide Menu Bar** option is enabled, click the `Alt` key to toggle the menu o
 Below lists menu options (shortcut keys are listed in brackets, `Ctrl` becomes `Command` on OS X):
 
 - **File**
-  - **About Mattermost** - Shows version information for Mattermost desktop application
+  - **About GChat** - Shows version information for GChat desktop application
   - **Settings** (Ctrl+Comma) - Opens setting menu to add new team sites and configure shortcut key options
   - **Quit** (Ctrl+Q) - Exits the application
 - **Edit**
@@ -178,13 +178,13 @@ Below lists menu options (shortcut keys are listed in brackets, `Ctrl` becomes `
 
 ## Notifications
 
-Mattermost lets users configure [desktop notifications](http://docs.mattermost.com/help/getting-started/configuring-notifications.html#desktop-notifications) to alert users to new events in a team site.
+GChat lets users configure [desktop notifications](http://docs.mattermost.com/help/getting-started/configuring-notifications.html#desktop-notifications) to alert users to new events in a team site.
 
-For the Mattermost Windows application, these appear as balloon notifications from the task bar on Windows 7 and Windows 8.1, and as a "toast" pop-up on Windows 10.
+For the GChat Windows application, these appear as balloon notifications from the task bar on Windows 7 and Windows 8.1, and as a "toast" pop-up on Windows 10.
 
 
 ## Start Menu and Task Bar shortcuts (Windows)
 
-If pinned to the Windows Start Menu in the setup procedure, a shortcut to the Mattermost desktop application should be available from the Start Menu by pressing the Windows Key.
+If pinned to the Windows Start Menu in the setup procedure, a shortcut to the GChat desktop application should be available from the Start Menu by pressing the Windows Key.
 
-If pinned to the Windows Task Bar in the setup procedure, a shortcut to the Mattermost desktop application should be available from the Windows Task Bar.
+If pinned to the Windows Task Bar in the setup procedure, a shortcut to the GChat desktop application should be available from the Windows Task Bar.

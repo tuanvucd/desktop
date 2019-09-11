@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2016 Yuya Ochiai
-// Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2016-present GChat, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // This file uses setState().
@@ -578,7 +578,7 @@ export default class SettingsPage extends React.Component {
       >
         {'Use GPU hardware acceleration'}
         <HelpBlock>
-          {'If enabled, Gchat UI is rendered more efficiently but can lead to decreased stability for some systems.'}
+          {'If enabled, UI is rendered more efficiently but can lead to decreased stability for some systems.'}
           {' Setting takes affect after restarting the app.'}
         </HelpBlock>
       </Checkbox>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <policyDefinitions revision="0.1" schemaVersion="1.0">
 	<policyNamespaces>
-		<target prefix="mattermost" namespace="Mattermost.Policies"/>
+		<target prefix="mattermost" namespace="GChat.Policies"/>
 	</policyNamespaces>
 	<resources minRequiredRevision="0.1"/>
 	<supportedOn>
@@ -13,7 +13,7 @@
 		<category displayName="$(string.mattermost)" name="mattermost"></category>
 	</categories>
 	<policies>
-		<policy name="DisableAutoUpdate" class="Machine" displayName="$(string.DisableAutoUpdate)" explainText="$(string.DisableAutoUpdate_Explain)" key="Software\Policies\Mattermost" valueName="DisableAutoUpdate">
+		<policy name="DisableAutoUpdate" class="Machine" displayName="$(string.DisableAutoUpdate)" explainText="$(string.DisableAutoUpdate_Explain)" key="Software\Policies\GChat" valueName="DisableAutoUpdate">
 			<parentCategory ref="mattermost"/>
 			<supportedOn ref="SUPPORTED_MMD43"/>
 			<enabledValue>
@@ -23,7 +23,7 @@
 				<decimal value="0"/>
 			</disabledValue>
 		</policy>
-		<policy name="PreventAddNewServer" class="Both" displayName="$(string.PreventAddNewServer)" explainText="$(string.PreventAddNewServer_Explain)" key="Software\Policies\Mattermost" valueName="PreventAddNewServer">
+		<policy name="PreventAddNewServer" class="Both" displayName="$(string.PreventAddNewServer)" explainText="$(string.PreventAddNewServer_Explain)" key="Software\Policies\GChat" valueName="PreventAddNewServer">
 			<parentCategory ref="mattermost"/>
 			<supportedOn ref="SUPPORTED_MMD43"/>
 			<enabledValue>
@@ -33,14 +33,14 @@
 				<decimal value="0"/>
 			</disabledValue>
 		</policy>
-		<policy name="ServerURL" class="Both" displayName="$(string.ServerURL)" explainText="$(string.ServerURL_Explain)" presentation="$(presentation.ServerURL)" key="Software\Policies\Mattermost">
+		<policy name="ServerURL" class="Both" displayName="$(string.ServerURL)" explainText="$(string.ServerURL_Explain)" presentation="$(presentation.ServerURL)" key="Software\Policies\GChat">
 			<parentCategory ref="mattermost" />
 			<supportedOn ref="SUPPORTED_MMD43" />
 			<elements>
-				<list id="ServerURL" key="Software\Policies\Mattermost\DefaultServerList" additive="true" explicitValue="true" />
+				<list id="ServerURL" key="Software\Policies\GChat\DefaultServerList" additive="true" explicitValue="true" />
 			</elements>
 		</policy>
-		<policy name="PreventGPU" class="Machine" displayName="$(string.PreventGPU)" explainText="$(string.PreventGPU_Explain)" key="Software\Policies\Mattermost" valueName="PreventGPU">
+		<policy name="PreventGPU" class="Machine" displayName="$(string.PreventGPU)" explainText="$(string.PreventGPU_Explain)" key="Software\Policies\GChat" valueName="PreventGPU">
 			<parentCategory ref="mattermost"/>
 			<supportedOn ref="SUPPORTED_MMD43"/>
 			<enabledValue>

@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2016 Yuya Ochiai
-// Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2016-present GChat, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import os from 'os';
@@ -76,7 +76,7 @@ async function initialize() {
   global.willAppQuit = false;
   global.isDev = isDev && !argv.disableDevMode;
 
-  app.setAppUserModelId('com.squirrel.mattermost.Mattermost'); // Use explicit AppUserModelID
+  app.setAppUserModelId('com.squirrel.mattermost.GChat'); // Use explicit AppUserModelID
 
   if (argv['data-dir']) {
     app.setPath('userData', path.resolve(argv['data-dir']));

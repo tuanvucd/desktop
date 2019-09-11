@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2016 Yuya Ochiai
-// Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2016-present GChat, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {EventEmitter} from 'events';
@@ -7,7 +7,7 @@ import {EventEmitter} from 'events';
 import WindowsRegistry from 'winreg';
 
 const REGISTRY_HIVE_LIST = [WindowsRegistry.HKLM, WindowsRegistry.HKCU];
-const BASE_REGISTRY_KEY_PATH = '\\Software\\Policies\\Mattermost';
+const BASE_REGISTRY_KEY_PATH = '\\Software\\Policies\\GChat';
 
 /**
  * Handles loading config data from the Windows registry set manually or by GPO

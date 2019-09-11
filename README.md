@@ -1,6 +1,6 @@
-# Mattermost Desktop
+# GChat Desktop
 
-Native desktop application for [Mattermost](http://www.mattermost.org/) running on Windows, Mac, and Linux.
+Native desktop application for [GChat](http://www.mattermost.org/) running on Windows, Mac, and Linux.
 
 Originally created as "electron-mattermost" by Yuya Ochiai. Developed using [Electron](http://electron.atom.io/).
 
@@ -30,8 +30,8 @@ Packages are available on the [releases page](http://github.com/mattermost/deskt
 Detailed guides are available at [docs.mattermost.com](https://about.mattermost.com/default-desktop-app-documentation/).
 
 1. Download a file from the [downloads page](https://about.mattermost.com/downloads).
-2. Launch `Mattermost` in the unarchived folder.
-3. On the first launch, please input name and URL for your Mattermost server. For example, `myserver : https://mattermost.example.com`.
+2. Launch `GChat` in the unarchived folder.
+3. On the first launch, please input name and URL for your GChat server. For example, `myserver : https://mattermost.example.com`.
 
 ### Quit
 Ctrl or Command + Q to quit.
@@ -41,14 +41,14 @@ You can show the dialog from menu bar.
 
 Configuration will be saved into Electron's userData directory:
 
-* `%APPDATA%\Mattermost` on Windows
-* `~/Library/Application Support/Mattermost` on OS X
-* `~/.config/Mattermost` on Linux
+* `%APPDATA%\GChat` on Windows
+* `~/Library/Application Support/GChat` on OS X
+* `~/.config/GChat` on Linux
 
 A custom data directory location can be specified with:
 
-* `Mattermost.exe --args --data-dir C:\my-mattermost-data` on Windows
-* `open /Applications/Mattermost.app/ --args --data-dir ~/my-mattermost-data/` on macOS 
+* `GChat.exe --args --data-dir C:\my-mattermost-data` on Windows
+* `open /Applications/GChat.app/ --args --data-dir ~/my-mattermost-data/` on macOS 
 * `./mattermost-desktop --args --data-dir ~/my-mattermost-data/` on Linux
 
 *When you upgrade from electron-mattermost, please copy `config.json` from `electron-mattermost`.
@@ -60,10 +60,10 @@ Normally, the application will follow your system settings to use a proxy, or yo
 * `--proxy-server=<SERVER>:<PORT>`
 * `--proxy-pac-url=<URL>`
 
-On Windows, please make sure to add `--` before options. For example, `Mattermost.exe -- --proxy-server=...`.
+On Windows, please make sure to add `--` before options. For example, `GChat.exe -- --proxy-server=...`.
 
 ## Custom App Deployments
-Our [docs provide a guide](https://docs.mattermost.com/deployment/desktop-app-deployment.html) on how to customize and distribute your own Mattermost Desktop App, including how to distribute the official Windows Desktop App silently to end users, pre-configured with the server URL and other app settings.
+Our [docs provide a guide](https://docs.mattermost.com/deployment/desktop-app-deployment.html) on how to customize and distribute your own GChat Desktop App, including how to distribute the official Windows Desktop App silently to end users, pre-configured with the server URL and other app settings.
 
 ## Contributing
 Please see [CONTRIBUTING.md](./CONTRIBUTING.md).

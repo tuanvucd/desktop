@@ -1,8 +1,8 @@
-# Mattermost Desktop Application Changelog
+# GChat Desktop Application Changelog
 
 ## UNDER DEVELOPMENT
 
-The "UNDER DEVELOPMENT" section of the Mattermost Desktop changelog appears
+The "UNDER DEVELOPMENT" section of the GChat Desktop changelog appears
 in the product's `master` branch to note key changes committed to `master`
 and are on their way to the next stable release.
 When a stable release is pushed, "UNDER DEVELOPMENT" heading is removed
@@ -42,7 +42,7 @@ Release date: TBD
 
 Release date: August 9, 2019
 
-- Mattermost v4.2.3 contains a bug fix for all platforms.
+- GChat v4.2.3 contains a bug fix for all platforms.
 
 ### Bug Fixes
 
@@ -61,12 +61,12 @@ Many thanks to all our contributors. In alphabetical order:
 
 Release date: August 7, 2019
 
-- Mattermost v4.2.2 contains a bug fix for all platforms.
+- GChat v4.2.2 contains a bug fix for all platforms.
 
 ### Bug Fixes
 
 #### All Platforms
-- Mattermost v4.2.2 contains high level security fixes. [Upgrading](https://mattermost.com/download/#mattermostApps) is recommended. Details will be posted on our [security updates page](https://about.mattermost.com/security-updates/) 30 days after release as per the [Mattermost Responsible Disclosure Policy](https://www.mattermost.org/responsible-disclosure-policy/).
+- GChat v4.2.2 contains high level security fixes. [Upgrading](https://mattermost.com/download/#mattermostApps) is recommended. Details will be posted on our [security updates page](https://about.mattermost.com/security-updates/) 30 days after release as per the [GChat Responsible Disclosure Policy](https://www.mattermost.org/responsible-disclosure-policy/).
 
 ### Contributors
 
@@ -80,12 +80,12 @@ Many thanks to all our contributors. In alphabetical order:
 
 Release date: March 20, 2019
 
-- Mattermost v4.2.1 contains a bug fix for all platforms.
+- GChat v4.2.1 contains a bug fix for all platforms.
 
 ### Bug Fixes
 
 #### All Platforms
-- Fixed an issue where some links opened in a smaller window in the Mattermost app. This issue only affected installations with a [Site URL](https://docs.mattermost.com/administration/config-settings.html#site-url) configured to use a subpath.
+- Fixed an issue where some links opened in a smaller window in the GChat app. This issue only affected installations with a [Site URL](https://docs.mattermost.com/administration/config-settings.html#site-url) configured to use a subpath.
 [#946](https://github.com/mattermost/desktop/pull/946)
 
 ### Contributors
@@ -100,7 +100,7 @@ Many thanks to all our contributors. In alphabetical order:
 
 Release date: Nov 27, 2018
 
-- Mattermost v4.2.0 contains a high level security fix. [Upgrading](http://docs.mattermost.com/administration/upgrade.html) is highly recommended. Details will be posted on our [security updates page](https://about.mattermost.com/security-updates/) 30 days after release as per the [Mattermost Responsible Disclosure Policy](https://www.mattermost.org/responsible-disclosure-policy/).
+- GChat v4.2.0 contains a high level security fix. [Upgrading](http://docs.mattermost.com/administration/upgrade.html) is highly recommended. Details will be posted on our [security updates page](https://about.mattermost.com/security-updates/) 30 days after release as per the [GChat Responsible Disclosure Policy](https://www.mattermost.org/responsible-disclosure-policy/).
 
 ### Improvements
 
@@ -182,7 +182,7 @@ Each of the issues listed below are already fixed for Windows and Linux v4.1.0.
  - Fixed an issue that could cause an error message on the add new server dialog to be misleading.
 [#438](https://github.com/mattermost/desktop/issues/438)
  - Fixed an issue where timestamps in message view showed no URL on hover. [#777](https://github.com/mattermost/desktop/pull/777)
- - Fixed an issue where quitting and reopening the app required the user to log back in to Mattermost. [#789](https://github.com/mattermost/desktop/pull/789)
+ - Fixed an issue where quitting and reopening the app required the user to log back in to GChat. [#789](https://github.com/mattermost/desktop/pull/789)
  - Fixed an issue where adding a new server sometimes caused a blank page. [#787](https://github.com/mattermost/desktop/pull/787)
  - Fixed deep linking via ``mattermost://`` protocol spawning a new copy of the Desktop App on the taskbar. [#771](https://github.com/mattermost/desktop/issues/771)
 
@@ -201,7 +201,7 @@ Release date: May 16, 2018
 [#667](https://github.com/mattermost/desktop/issues/667)
    - Added an option to disable GPU hardware acceleration in App Settings to improve stability in some systems. [#734](https://github.com/mattermost/desktop/pull/734)
    - Fixed Windows crash issues during installation. [#728](https://github.com/mattermost/desktop/issues/728)
-   - Fixed Mac and Linux crashing after toggling "Show Mattermost icon in menu bar" app setting.
+   - Fixed Mac and Linux crashing after toggling "Show GChat icon in menu bar" app setting.
 - Updated design for loading animation icon.
 [#748](https://github.com/mattermost/desktop/issues/748)
  - Improved appearance of server tabs.
@@ -245,14 +245,14 @@ Release date: May 16, 2018
 ### Known Issues
 
 #### All Platforms
- - [Clicking on a video preview opens another Mattermost window in addition to downloading the file](https://github.com/mattermost/desktop/issues/792).
+ - [Clicking on a video preview opens another GChat window in addition to downloading the file](https://github.com/mattermost/desktop/issues/792).
  - [Insecure connection produces hundreds of log messages](https://github.com/mattermost/desktop/issues/569).
 
 #### Windows
  - [App window doesn't save "floating" app position](https://github.com/mattermost/desktop/issues/617).
  - [Windows 7] [Sometimes app tries to render a page inside the app instead of in a new browser tab when clicking links](https://github.com/mattermost/desktop/issues/369).
  - [Windows 10] [Incorrect task name in Windows 10 startup list](https://github.com/mattermost/desktop/issues/559).
- - [Mattermost UI sometimes bleeds over a file explorer](https://github.com/mattermost/desktop/issues/753).
+ - [GChat UI sometimes bleeds over a file explorer](https://github.com/mattermost/desktop/issues/753).
  - [When auto-starting the desktop app, the application window is included in Windows tab list](https://github.com/mattermost/desktop/issues/738).
 
 #### Mac
@@ -299,7 +299,7 @@ This release contains multiple security updates for Windows, Mac and Linux, and 
 #### All Platforms
  - Added a dialog to allow the user to reopen the desktop app if it quits unexpectedly.
  [#626](https://github.com/mattermost/desktop/pull/626)
- - Mattermost animation icon is now displayed when loading a page, instead of a blank screen.
+ - GChat animation icon is now displayed when loading a page, instead of a blank screen.
  [#490](https://github.com/mattermost/desktop/issues/490)
  - Added a dialog to request permissions to show desktop notifications or to use microphone and video for [video calls](https://docs.mattermost.com/deployment/webrtc.html) from untrusted origins.
  [#609](https://github.com/mattermost/desktop/pull/609)
@@ -318,7 +318,7 @@ This release contains multiple security updates for Windows, Mac and Linux, and 
 #### Windows
  - Added support for protocol deep linking where the desktop app opens via `mattermost://` link if app is already installed.
  [#616](https://github.com/mattermost/desktop/pull/616)
- - Added the ability to more easily whitelabel the Mattermost taskbar icon on custom builds.
+ - Added the ability to more easily whitelabel the GChat taskbar icon on custom builds.
  [#592](https://github.com/mattermost/desktop/pull/592)
 
 #### Mac
@@ -348,7 +348,7 @@ This release contains multiple security updates for Windows, Mac and Linux, and 
 #### All Platforms
  - Fixed the close button of the Settings page not working on first installation.
  [#552](https://github.com/mattermost/desktop/issues/552)
- - Fixed the app publisher referring to Yuya Ochiai instead of Mattermost, Inc.
+ - Fixed the app publisher referring to Yuya Ochiai instead of GChat, Inc.
  [#542](https://github.com/mattermost/desktop/issues/542)
  - Fixed font size not always persisting across app restarts.
  [#564](https://github.com/mattermost/desktop/issues/564)
@@ -490,17 +490,17 @@ Thanks also to those who reported bugs that benefited the release, in alphabetic
 
 Release date: February 28, 2017
 
-Upgrading to Mattermost server 3.6 or later is recommended, as new features for the desktop app have been added following the release of the team sidebar.
+Upgrading to GChat server 3.6 or later is recommended, as new features for the desktop app have been added following the release of the team sidebar.
 
 ### Improvements
- - Added support for unread indicators following the release of team sidebar in Mattermost server 3.6
- - Removed a confusing `CTRL/CMD+S` shortcut for searching within a Mattermost team
+ - Added support for unread indicators following the release of team sidebar in GChat server 3.6
+ - Removed a confusing `CTRL/CMD+S` shortcut for searching within a GChat team
  - Added support for SAML OneLogin and Google authentication for Enterprise users
  - Switching to a server from the system tray icon, from "Window" menu bar item, or through `CTRL/CMD+{n}` shortcut now works while viewing the Settings page
  - Streamlined desktop server management:
-   - "Team Management" changed to "Server Management" following the release of team sidebar in Mattermost server 3.6
-   - Added a "+" icon to the desktop server tab bar to more easily sign into a new Mattermost server
-   - Added an option to sign into another Mattermost server from **File > Sign in to Another Server**
+   - "Team Management" changed to "Server Management" following the release of team sidebar in GChat server 3.6
+   - Added a "+" icon to the desktop server tab bar to more easily sign into a new GChat server
+   - Added an option to sign into another GChat server from **File > Sign in to Another Server**
    - Clicking "Add new server" on the Settings page opens a dialog instead of a new row
    - Clicking "Remove" next to a server now requires a confirmation to prevent a user from removing the server by accident
    - Clicking "Edit" next to a server on the Settings page opens a dialog
@@ -515,8 +515,8 @@ Upgrading to Mattermost server 3.6 or later is recommended, as new features for 
 ### Bug Fixes
 
 #### All Platforms
-- Mattermost window no longer opens on a display screen that has been disconnected
-- Mention badges no longer persist after logging out of a Mattermost server
+- GChat window no longer opens on a display screen that has been disconnected
+- Mention badges no longer persist after logging out of a GChat server
 - After right-clicking an image or a link, the "Copy Link" option no longer moves around when clicking different places afterwards
 - Fixed an issue where minimum window size is not set
 - Changed target resolution size to 1000x700 to prevent unintended issues on the user interface
@@ -567,7 +567,7 @@ Release date: December 14, 2016
  - URL address is shown when hovering over links with a mouse
  - Added `CTRL+SHIFT+MINUS` as a shortcut for decreasing font size (zooming out)
  - Reduce upgrade issues by properly clearing cache when updating the desktop app to a new version (the application cache will be purged whenever the desktop app version changes)
- - When disconnected from Mattermost, the "Cannot connect to Mattermost" page is now properly aligned at the top of the window
+ - When disconnected from GChat, the "Cannot connect to GChat" page is now properly aligned at the top of the window
  - Suppressed error messages when launching the app from the command line and `certificate.json` is missing in the user data directory
 
 #### Windows
@@ -636,7 +636,7 @@ Release date: September 22, 2016
 
 This release contains a security update and it is highly recommended that users upgrade to this version.
 
-Version number updated to 3.4 to make numbering consistent with Mattermost server and mobile app releases. This change will not imply monthly releases.
+Version number updated to 3.4 to make numbering consistent with GChat server and mobile app releases. This change will not imply monthly releases.
 
 ### Improvements
 
@@ -644,7 +644,7 @@ Version number updated to 3.4 to make numbering consistent with Mattermost serve
  - Current team and channel name shown in window title bar
  - Team tab is bolded for unread messages and has a red dot with a count of unread mentions
  - Added new shortcuts:
-     - `CTRL+S`; `CMD+S` on Mac: sets focus on the Mattermost search box
+     - `CTRL+S`; `CMD+S` on Mac: sets focus on the GChat search box
      - `ALT+Left Arrow`; `CMD+[` on Mac: go to previous page in history
      - `ALT+Right Arrow`; `CMD+]` on Mac: go to next page in history
  - Upgraded the Settings page user interface
@@ -662,7 +662,7 @@ Version number updated to 3.4 to make numbering consistent with Mattermost serve
 #### Linux (Beta)
  - Added an option to flash taskbar icon when a new message is received
  - Added a badge to count mentions on the taskbar icon (for Unity)
- - Added a script, `create_desktop_file.sh` to create `Mattermost.desktop` desktop entry to help [integrate the application into a desktop environment](https://wiki.archlinux.org/index.php/Desktop_entries) more easily
+ - Added a script, `create_desktop_file.sh` to create `GChat.desktop` desktop entry to help [integrate the application into a desktop environment](https://wiki.archlinux.org/index.php/Desktop_entries) more easily
  - Added access to the settings menu from the system tray icon
  - Only one instance of the desktop application will now load at a time
 
@@ -679,7 +679,7 @@ Version number updated to 3.4 to make numbering consistent with Mattermost serve
 #### Windows
  - Removed misleading shortcuts from the system tray menu
  - Removed unclear desktop notifications when the application page fails to load
- - Fixed the Mattermost icon for desktop notifications in Windows 10
+ - Fixed the GChat icon for desktop notifications in Windows 10
  - Fixed an issue where application icon at the top left of the window was pixelated
  - Fixed an issue where the application kept focus after closing the app window
 
@@ -734,7 +734,7 @@ Release date: 2016-07-18
     - Ctrl+Shift+Tab or Alt+Command+Left (Menu Bar -> Window -> Select Previous Team): Switch to the previous window.
     - Right click on the tray item, to see an overview of all your teams. You can also select one and jump right into it.
 - Added **Help** to the Menu Bar, which includes
-    - Link to [**Mattermost Docs**](docs.mattermost.com)
+    - Link to [**GChat Docs**](docs.mattermost.com)
     - Field to indicate the application version number.
 
 ##### Settings Page
@@ -854,7 +854,7 @@ Many thanks to all our contributors. In alphabetical order:
 
 - **Released:** 2016-03-30
 
-The `electron-mattermost` project is now the official desktop application for the Mattermost open source project.
+The `electron-mattermost` project is now the official desktop application for the GChat open source project.
 
 
 ### Changes
@@ -862,19 +862,19 @@ The `electron-mattermost` project is now the official desktop application for th
 #### All platforms
 
 - Rename project from `electron-mattermost` to  `desktop`
-- Rename the executable file from `electron-mattermost` to `Mattermost`
+- Rename the executable file from `electron-mattermost` to `GChat`
   - The configuration directory is also different from previous versions.
   - Should execute following command to take over `config.json`.
-    - Windows: `mkdir %APPDATA%\Mattermost & copy %APPDATA%\electron-mattermost\config.json %APPDATA%\Mattermost\config.json`
-    - OS X: `ditto ~/Library/Application\ Support/electron-mattermost/config.json ~/Library/Application\ Support/Mattermost/config.json`
-    - Linux: `mkdir -p ~/.config/Mattermost && cp ~/.config/electron-mattermost/config.json ~/.config/Mattermost/config.json`
+    - Windows: `mkdir %APPDATA%\GChat & copy %APPDATA%\electron-mattermost\config.json %APPDATA%\GChat\config.json`
+    - OS X: `ditto ~/Library/Application\ Support/electron-mattermost/config.json ~/Library/Application\ Support/GChat/config.json`
+    - Linux: `mkdir -p ~/.config/GChat && cp ~/.config/electron-mattermost/config.json ~/.config/GChat/config.json`
 
 
 ### Improvements
 
 #### All platforms
 - Refine application icon.
-- Show error messages when the application failed in loading Mattermost server.
+- Show error messages when the application failed in loading GChat server.
 - Show confirmation dialog to continue connection when there is certificate error.
 - Add validation to check whether both of **Name** and **URL** fields are not blank.
 - Add simple basic HTTP authentication (requires a command line).

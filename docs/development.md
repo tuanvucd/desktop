@@ -1,4 +1,4 @@
-# Mattermost Desktop Development Guides
+# GChat Desktop Development Guides
 
 ## Build instructions
 
@@ -84,7 +84,7 @@ When using this mode, you can use "React Developer Tools" in the Developer Tools
 ## Directory Structure
 
 ```
-Mattermost Desktop
+GChat Desktop
 ├── docs/ - Documentations.
 ├── resources/ - Resources which are used outside of the application codes, and original images of assets.
 ├── scripts/ - Helper scripts.

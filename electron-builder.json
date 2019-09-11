@@ -24,7 +24,7 @@
     }
   ],
   "deb": {
-    "synopsis": "Mattermost"
+    "synopsis": "GChat"
   },
   "linux": {
     "category": "Network;InstantMessaging",
