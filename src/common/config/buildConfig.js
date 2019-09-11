@@ -16,13 +16,13 @@
  *                                          when "enableServerManagement is set to false
  */
 const buildConfig = {
-  defaultTeams: [/*
+  defaultTeams: [
     {
-      name: 'example',
-      url: 'https://example.com'
-    }*/
+      name: 'Grooo',
+      url: 'https://hall.grooo.vn',
+    },
   ],
-  helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
+  helpLink: '',
   enableServerManagement: true,
   enableAutoUpdater: true,
 };

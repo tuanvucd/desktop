@@ -19,7 +19,7 @@
   ],
   "protocols": [
     {
-      "name": "Mattermost",
+      "name": "Gchat",
       "schemes": ["mattermost"]
     }
   ],
